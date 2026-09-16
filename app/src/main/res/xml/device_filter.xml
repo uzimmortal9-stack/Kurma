@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Arduino Uno R3 -->
+    <usb-device vendor-id="9025" />
+    <usb-device vendor-id="10755" />
+    <usb-device vendor-id="6790" /> <!-- CH340 clones -->
+    <usb-device vendor-id="4292" /> <!-- CP210x clones -->
+    <usb-device vendor-id="1027" /> <!-- FTDI clones -->
+</resources>

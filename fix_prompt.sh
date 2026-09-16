@@ -1,0 +1,1 @@
+sed -i 's/speak in Hindi."/speak in Hindi. If the user asks you to play a song or bhajan, reply EXACTLY with \"चलिए, मैं आपको एक सुंदर भजन सुनाता हूँ।\" (which means alright, I will play a bhajan for you)."/g' app/src/main/java/com/example/LlmKeyManager.kt

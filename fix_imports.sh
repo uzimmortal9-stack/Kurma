@@ -1,0 +1,1 @@
+sed -i 's/import androidx.compose.foundation.layout.padding/import androidx.compose.foundation.layout.padding\nimport androidx.compose.foundation.layout.height\nimport androidx.compose.foundation.layout.Spacer/g' app/src/main/java/com/example/MainActivity.kt

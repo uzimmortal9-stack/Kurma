@@ -1,0 +1,2 @@
+sed -i 's/private fun connectToDevice(device: UsbDevice) {/private fun connectToDevice(device: UsbDevice) {\n        if (usbPort != null) {\n            disconnect()\n        }/g' app/src/main/java/com/example/MainActivity.kt
+sed -i 's/usbPort?.setParameters(9600, 8, UsbSerialPort.STOPBITS_1, UsbSerialPort.PARITY_NONE)/usbPort?.setParameters(9600, 8, UsbSerialPort.STOPBITS_1, UsbSerialPort.PARITY_NONE)\n            usbPort?.dtr = true\n            usbPort?.rts = true/g' app/src/main/java/com/example/MainActivity.kt

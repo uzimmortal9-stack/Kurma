@@ -1,0 +1,6 @@
+{
+  "name": "Kurma Orchestrator",
+  "description": "Intelligent orchestrator app for Makhar setup with Arduino Uno.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
